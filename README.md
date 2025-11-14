@@ -42,10 +42,12 @@ false.
 **쿼리 실행**
 ```
 ?- likes(mary, X), likes(john, X).
-X = wine.
+X = wine ;
+false.
 
 ?- likes(X, wine), likes(john, X).
-X = mary 
+X = mary ;
+false.
 ```
 
 ---
