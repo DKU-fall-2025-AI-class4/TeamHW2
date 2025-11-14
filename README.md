@@ -8,6 +8,8 @@
 
 ## 2. Mac
 쉘에 해당 명령어 입력하여 설치
-''' bash
+
+``` bash
 brew install swi-prolog
-'''
+```
+
