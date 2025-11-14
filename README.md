@@ -13,3 +13,41 @@
 brew install swi-prolog
 ```
 
+## P1.1
+SWI-Prolog 실행
+``` bash
+cd P1
+swipl
+```
+지식 베이스 적용
+```
+?- ['Knowledge_Base.pl'].
+true.
+```
+쿼리 실행
+```
+?- likes(mary, food).
+true.
+?- likes(john, wine).
+true.
+?- likes(john, food), likes(john, mary).
+false.
+```
+
+## P1.2
+```
+?- likes(mary, X), likes(john, X).
+X = wine.
+
+?- likes(X, wine), likes(john, X).
+X = mary 
+```
+
+## P2.1
+SWI-Prolog 실행
+``` bash
+cd P2
+swipl
+```
+
+
