@@ -8,13 +8,13 @@ male(james2).
 male(george1).
 
 female(catherine).
-female(eliabeth).
+female(elizabeth).
 female(sophia).
 
 parent(charles1, james1).
-parent(eliabeth, james1).
+parent(elizabeth, james1).
 parent(charles2, charles1).
-parent(catherine, charles1)
+parent(catherine, charles1).
 parent(james2, charles1).
-parent(sophia, eliabeth).
+parent(sophia, elizabeth).
 parent(george1, sophia).
